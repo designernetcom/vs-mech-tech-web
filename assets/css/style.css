@@ -78,7 +78,7 @@ a {
   gap: 2px;
 }
 .nav-link {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   color: #34464e !important;
   padding: 12px 10px !important;
@@ -108,8 +108,8 @@ a {
 .btn {
   border-radius: 2px;
   padding: 14px 20px;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
   letter-spacing: 0.1px;
   transition: all 0.25s;
 }
@@ -419,7 +419,7 @@ a {
   letter-spacing: 0.5px;
 }
 .section-pad {
-  padding: 105px 0;
+  padding: 60px 0;
 }
 .about-visual {
   position: relative;
@@ -579,7 +579,7 @@ a {
 }
 .product-category {
   font-size: 8px;
-  color: var(--primary-dark);
+  color: #ee3539;
   letter-spacing: 1.4px;
   font-weight: 700;
   margin: 19px 0 8px;
@@ -873,7 +873,7 @@ a {
   color: #9aabad;
 }
 .site-footer a:hover {
-  color: #f18a54 !important;
+  color: #fff !important;
 }
 .site-footer .footer-top p {
   font-size: 10px;
@@ -965,7 +965,7 @@ a {
 .detail-band span,
 .contact-item span {
   font-size: 8px;
-  color: var(--primary-dark);
+  color: rgb(231 30 37);
   font-weight: 700;
   letter-spacing: 1.3px;
 }
@@ -1413,7 +1413,7 @@ a {
 .catalog-tags span {
   font-size: 10px;
   color: #536267;
-  border: 1px solid #d9ddda;
+  border: 1px solid #ee353933;
   background: #faf9f6;
   padding: 9px 12px;
 }
@@ -4850,11 +4850,9 @@ a {
 
   padding: 9px 12px;
 
-  color: rgba(255, 255, 255, 0.65);
-
-  border: 1px solid rgba(255, 255, 255, 0.12);
-
-  background: rgba(255, 255, 255, 0.035);
+color: rgb(231 30 37);
+    border: 1px solid rgb(188 0 0 / 20%);
+    background: rgb(255 76 76 / 4%);
 
   font-size: 8px;
 
@@ -9557,11 +9555,11 @@ a {
 
 .contact-icon {
   flex: 0 0 34px;
-  width: 34px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
   display: grid;
   place-items: center;
-  color: var(--accent);
+  color: #e71e25;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(255, 255, 255, 0.04);
 }
@@ -9833,7 +9831,7 @@ a {
 
 
 .mv-modern {
-  padding: 90px 20px;
+  padding: 50px 20px;
   background: #101e2c;
   font-family: Arial, sans-serif;
 }
@@ -9848,7 +9846,7 @@ a {
 }
 
 .mv-top > span {
-  color: #d6a044;
+  color: #e71e25;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -9862,7 +9860,7 @@ a {
 }
 
 .mv-top h2 em {
-  color: #d6a044;
+  color: #e71e25;
   font-style: normal;
 }
 
@@ -9884,7 +9882,7 @@ a {
 
 .mv-count {
   font-size: 14px;
-  color: #d6a044;
+  color: #e71e25;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -9892,7 +9890,7 @@ a {
 .mv-side-line {
   width: 45px;
   height: 3px;
-  background: #d6a044;
+  background: #e71e25;
   margin: 22px 0;
 }
 
@@ -9916,7 +9914,7 @@ a {
 }
 
 .mv-content-top span {
-  color: #d6a044;
+  color: #e71e25;
   font-size: 12px;
   letter-spacing: 2px;
   font-weight: 700;
@@ -9924,11 +9922,11 @@ a {
 
 .mv-content-top i {
   font-size: 28px;
-  color: #d6a044;
+  color: #e71e25;
 }
 
 .mv-content p {
-  color: #c1cbd4;
+  color: #d7d7d7;
   font-size: 16px;
   line-height: 1.95;
   margin: 0;
@@ -10001,7 +9999,7 @@ a {
 
     /* Facts Section */
     .company-stats {
-      padding: 85px 20px;
+      padding: 60px 20px;
       background: #fff;
       font-family: Arial, sans-serif;
     }
@@ -10182,8 +10180,8 @@ a {
 
 
 .testimonial-section {
-  padding: 85px 20px;
-  background: #f7f7f7;
+  padding: 60px 20px;
+  background: #101e2c;
   font-family: Arial, sans-serif;
 }
 
@@ -10373,7 +10371,7 @@ a {
 
 .testimonial-right h2 {
   font-size: 38px;
-  color: #222;
+  color: #fff;
   font-weight: 700;
   line-height: 1.3;
   margin: 18px 0;
@@ -10391,8 +10389,8 @@ a {
 }
 
 .testimonial-right > p {
-  font-size: 15px;
-  color: #707070;
+  font-size: 16px;
+  color: #d7d7d7;
   line-height: 1.9;
   margin-bottom: 18px;
 }
@@ -10490,7 +10488,7 @@ a {
 
 /* FAQ Section */
 .faq-section {
-  padding: 85px 20px;
+  padding: 60px 20px;
   background: #f7f7f7;
   font-family: Arial, sans-serif;
 }
@@ -10763,7 +10761,7 @@ a {
 
 
 .gallery-section {
-  padding: 80px 20px;
+  padding: 60px 20px;
   background: #f8f8f8;
 }
 
@@ -10994,3 +10992,750 @@ a {
   .lightbox-prev { left: 8px; }
   .lightbox-next { right: 8px; }
 }
+
+
+
+
+
+
+
+.clients-section {
+  padding: 60px 20px;
+  background: #f8f8f8;
+}
+
+.clients-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.clients-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.clients-heading span {
+  display: block;
+  color: #ed1c24;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.clients-heading h2 {
+  color: #222;
+  font-size: 38px;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+
+.clients-heading h2 strong {
+  color: #ed1c24;
+}
+
+.clients-heading p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #777;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* Client logos grid */
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.client-logo {
+  height: 160px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.client-logo:hover {
+  border-color: #ed1c24;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+}
+
+.client-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.client-logo:hover img {
+  transform: scale(1.06);
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .clients-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .client-logo {
+    height: 145px;
+  }
+
+  .clients-heading h2 {
+    font-size: 33px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+  .clients-section {
+    padding: 55px 15px;
+  }
+
+  .clients-heading {
+    margin-bottom: 30px;
+  }
+
+  .clients-heading h2 {
+    font-size: 28px;
+  }
+
+  .clients-heading p {
+    font-size: 14px;
+  }
+
+  .clients-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .client-logo {
+    height: 120px;
+    padding: 15px;
+  }
+}
+
+
+
+
+
+
+.bf-modern-section {
+  padding: 60px 20px;
+  background: #171d25;
+  color: #fff;
+}
+
+.bf-modern-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.bf-modern-heading {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 50px;
+}
+
+.bf-modern-heading > span {
+  color: #ed1c24;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.bf-modern-heading h2 {
+  font-size: 38px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #fff;
+  margin: 14px 0;
+}
+
+.bf-modern-heading h2 strong {
+  color: #ed1c24;
+}
+
+.bf-modern-heading p {
+  color: #b7bdc5;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.bf-modern-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+}
+
+.bf-modern-panel {
+  background: #222b36;
+  padding: 32px;
+  border-top: 3px solid #ed1c24;
+  min-width: 0;
+}
+
+.bf-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #3c4652;
+  margin-bottom: 5px;
+}
+
+.bf-panel-label {
+  color: #ed1c24;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.bf-panel-header h3 {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700;
+  margin: 8px 0 0;
+}
+
+.bf-panel-symbol {
+  font-size: 48px;
+  line-height: 1;
+  color: rgba(255,255,255,0.09);
+  font-weight: 800;
+}
+
+.bf-modern-item {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 16px;
+  padding: 22px 0;
+  border-bottom: 1px solid #3c4652;
+}
+
+.bf-modern-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.bf-modern-number {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #ed1c24;
+  color: #ed1c24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+.bf-modern-item:hover .bf-modern-number {
+  background: #ed1c24;
+  color: #fff;
+}
+
+.bf-modern-item h4 {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 9px;
+  transition: 0.3s;
+}
+
+.bf-modern-item:hover h4 {
+  color: #ed1c24;
+}
+
+.bf-modern-item p {
+  color: #b7bdc5;
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .bf-modern-grid {
+    gap: 18px;
+  }
+
+  .bf-modern-panel {
+    padding: 25px;
+  }
+
+  .bf-modern-heading h2 {
+    font-size: 33px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .bf-modern-section {
+    padding: 55px 15px;
+  }
+
+  .bf-modern-heading {
+    margin-bottom: 30px;
+  }
+
+  .bf-modern-heading h2 {
+    font-size: 28px;
+  }
+
+  .bf-modern-heading p {
+    font-size: 14px;
+  }
+
+  .bf-modern-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .bf-modern-panel {
+    padding: 22px 18px;
+  }
+
+  .bf-panel-header h3 {
+    font-size: 23px;
+  }
+
+  .bf-panel-symbol {
+    font-size: 40px;
+  }
+
+  .bf-modern-item {
+    grid-template-columns: 38px 1fr;
+    gap: 12px;
+    padding: 19px 0;
+  }
+
+  .bf-modern-number {
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .bf-modern-item h4 {
+    font-size: 16px;
+  }
+
+  .bf-modern-item p {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+/* Mega Dropdown Menu */
+.products-mega-menu {
+    width: 900px;
+    padding: 20px !important;
+    border: none !important;
+    border-radius: 10px !important;
+    background: #ffffff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    margin-top: 20px !important;
+}
+
+/* Three Column Layout */
+.products-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* Remove Default List Styling */
+.products-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Product Items */
+.products-menu-list li {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.products-menu-list li:last-child {
+    border-bottom: none;
+}
+
+/* Product Links */
+.products-menu-list li a {
+    display: flex;
+    align-items: center;
+    min-height: 58px;
+    padding: 12px 10px;
+    color: #444444;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.products-menu-list li a:hover {
+    color: #ee3539;
+    background: #fafafa;
+    padding-left: 15px;
+}
+
+/* Desktop Dropdown Position */
+@media (min-width: 992px) {
+    .products-mega-menu {
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .products-mega-menu {
+        width: 100%;
+        min-width: 100%;
+        margin-top: 0 !important;
+        box-shadow: none;
+    }
+
+    .products-menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .products-mega-menu {
+        width: 100%;
+        padding: 12px !important;
+    }
+
+    .products-menu-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .products-menu-list li a {
+        min-height: 48px;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+
+
+/* ==========================================
+   VSMT RELATED MACHINERY SECTION
+========================================== */
+
+.vsmt-machinery-section {
+    overflow: hidden;
+}
+
+/* Section Heading */
+
+.vsmt-machinery-heading {
+    margin-bottom: 35px;
+}
+
+.vsmt-machinery-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #e71e25;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+.vsmt-machinery-eyebrow span {
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background: #e71e25;
+}
+
+.vsmt-machinery-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #222;
+    margin: 0;
+}
+
+/* Slider */
+
+.vsmt-machinery-slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.vsmt-machinery-track {
+    display: flex;
+    width: max-content;
+    gap: 24px;
+    animation: vsmtMachineryScroll 65s linear infinite;
+    will-change: transform;
+}
+
+.vsmt-machinery-slider:hover .vsmt-machinery-track {
+    animation-play-state: paused;
+}
+
+/* Individual Slide */
+
+.vsmt-machinery-slide {
+    flex: 0 0 300px;
+    width: 300px;
+}
+
+/* Product Card */
+
+.vsmt-machinery-card {
+    display: block;
+    height: 100%;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 3px 18px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.vsmt-machinery-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Product Image */
+
+.vsmt-machinery-image {
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    border-radius: 7px;
+    background: #f5f5f5;
+}
+
+.vsmt-machinery-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+
+.vsmt-machinery-card:hover .vsmt-machinery-image img {
+    transform: scale(1.07);
+}
+
+/* Product Category */
+
+.vsmt-machinery-category {
+    margin: 18px 0 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #e71e25;
+}
+
+/* Product Title */
+
+.vsmt-machinery-card h3 {
+    font-size: 19px;
+    line-height: 1.4;
+    color: #222222;
+    font-weight: 600;
+    min-height: 54px;
+    margin-bottom: 15px;
+}
+
+/* View Products Link */
+
+.vsmt-machinery-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #e71e25;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.vsmt-machinery-link i {
+    transition: transform 0.3s ease;
+}
+
+.vsmt-machinery-card:hover .vsmt-machinery-link i {
+    transform: translateX(5px);
+}
+
+/* Infinite Loop Animation */
+
+@keyframes vsmtMachineryScroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* ==========================================
+   TABLET RESPONSIVE
+========================================== */
+
+@media (max-width: 991px) {
+
+    .vsmt-machinery-heading h2 {
+        font-size: 30px;
+    }
+
+    .vsmt-machinery-slide {
+        flex: 0 0 280px;
+        width: 280px;
+    }
+
+    .vsmt-machinery-image {
+        height: 190px;
+    }
+
+    .vsmt-machinery-track {
+        gap: 20px;
+        animation-duration: 55s;
+    }
+}
+
+/* ==========================================
+   MOBILE RESPONSIVE
+========================================== */
+
+@media (max-width: 576px) {
+
+    .vsmt-machinery-heading {
+        margin-bottom: 25px;
+    }
+
+    .vsmt-machinery-heading h2 {
+        font-size: 25px;
+        line-height: 1.3;
+    }
+
+    .vsmt-machinery-eyebrow {
+        font-size: 11px;
+    }
+
+    .vsmt-machinery-slide {
+        flex: 0 0 250px;
+        width: 250px;
+    }
+
+    .vsmt-machinery-image {
+        height: 175px;
+    }
+
+    .vsmt-machinery-card {
+        padding: 12px;
+    }
+
+    .vsmt-machinery-card h3 {
+        font-size: 17px;
+    }
+
+    .vsmt-machinery-track {
+        gap: 15px;
+        animation-duration: 45s;
+    }
+}
+
+/* Reduced Motion Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+    .vsmt-machinery-track {
+        animation: none;
+    }
+}
+
+
+/* Slider Navigation */
+
+.vsmt-machinery-slider {
+    position: relative;
+}
+
+/* Arrow Container */
+
+.vsmt-machinery-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+/* Arrow Buttons */
+
+.vsmt-machinery-arrow {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #e71e25;
+    background: #ffffff;
+    color: #e71e25;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.vsmt-machinery-arrow:hover {
+    background: #e71e25;
+    color: #ffffff;
+    border-color: #e71e25;
+}
+
+.vsmt-machinery-arrow:active {
+    transform: scale(0.92);
+}
+
+/* Remove old CSS animation */
+.vsmt-machinery-track {
+    animation: none !important;
+    transition: none;
+}
+
+/* Mobile */
+
+@media (max-width: 576px) {
+    .vsmt-machinery-navigation {
+        margin-bottom: 15px;
+    }
+
+    .vsmt-machinery-arrow {
+        width: 36px;
+        height: 36px;
+        font-size: 15px;
+    }
+}
+
